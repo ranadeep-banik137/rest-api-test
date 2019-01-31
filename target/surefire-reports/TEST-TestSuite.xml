@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3.497" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="test-execution-xml" value="test-run"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Ranadeep&apos;s\Projects\testFrame"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="EmailValidation_GetCall#testWithInvalidUrl"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Ranadeep&apos;s\Projects\testFrame"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\RANADE~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\Ranadeep&apos;s\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6242150351767160744.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_162\bin;D:\software\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;C:\Program Files\nodejs\;C:\PostgreSQL\pg10\bin;D:\apache-tomcat-9.0.6-windows-x64\apache-tomcat-9.0.6;D:\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\Ranadeep_Banik\AppData\Local\Microsoft\WindowsApps;;D:\software\eclipse-jee-neon-2-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Ranadeep_Banik"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Ranadeep_Banik"/>
+    <property name="java.class.path" value="/D:/software/eclipse-jee-neon-2-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean test -Dtest-execution-xml=test-run -Dtest=EmailValidation_GetCall#testWithInvalidUrl"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Ranadeep&apos;s\Projects\testFrame\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testWithInvalidUrl" classname="com.project.api.testscenarios.httpstatusvalidationtests.EmailValidation_GetCall" time="3.139">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;404&gt; doesn&apos;t match actual status code &lt;200&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> doesn't match actual status code <200>.
+
+	at com.project.api.testscenarios.httpstatusvalidationtests.EmailValidation_GetCall.testWithInvalidUrl(EmailValidation_GetCall.java:78)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Cache-Control: no-cache, must-revalidate
+Content-Type: application/json
+Date: Thu, 31 Jan 2019 08:48:15 GMT
+Expires: 0
+Server: RapidAPI-1.0.4
+Vary: Accept
+X-Powered-By: Luracast Restler v2.2.0
+Content-Length: 21
+Connection: keep-alive
+
+{
+    "isValid": true
+}
+]]></system-out>
+    <system-err><![CDATA[Jan 31, 2019 2:18:12 PM com.project.app.api_test_v1.configurations.EntityProvider <clinit>
+INFO: Run entity environment is : emailValidation
+Jan 31, 2019 2:18:12 PM com.project.app.api_test_v1.configurations.RestSpecifications <clinit>
+INFO: EndPoint Base URI: https://pozzad-email-validator.p.rapidapi.com
+Jan 31, 2019 2:18:12 PM com.project.app.api_test_v1.utilities.RestCalls modifyPathParam
+INFO: Path params updated : {email=ranadeep_banik@yahoo.com}
+Jan 31, 2019 2:18:12 PM com.project.api.testscenarios.httpstatusvalidationtests.EmailValidation_GetCall setUp
+INFO: Method initiating testWithInvalidUrl
+Jan 31, 2019 2:18:12 PM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Uri : https://pozzad-email-validator.p.rapidapi.com
+Jan 31, 2019 2:18:12 PM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Path : /emailvalidator/validateEmail/{email}
+Jan 31, 2019 2:18:12 PM com.project.app.api_test_v1.utilities.RestCalls setInitialRestCallConfigurations
+INFO: Rest Assured initial configurations initiated
+]]></system-err>
+  </testcase>
+</testsuite>

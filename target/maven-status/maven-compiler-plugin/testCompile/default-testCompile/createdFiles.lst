@@ -1,0 +1,12 @@
+com\project\api\testscenarios\functionalvalidationtests\EmailValidation_GetCall.class
+com\project\api\constants\Constants.class
+com\project\api\utilities\CommonUtils.class
+com\project\api\constants\PayloadFields.class
+com\project\api\constants\TestDataKey.class
+com\project\api\constants\FlatFile.class
+com\project\api\constants\PathParamConstants.class
+com\project\api\constants\FilePath.class
+com\project\api\constants\QueryParamConstants.class
+com\project\api\testscenarios\httpstatusvalidationtests\EmailValidation_GetCall.class
+com\project\api\constants\ApiCallConfig.class
+com\project\api\constants\EnvironmentVariables.class

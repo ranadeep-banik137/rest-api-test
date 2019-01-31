@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test name="POST_TEST(failed)">
+    <classes>
+      <class name="com.project.api.testscenarios.functionalvalidationtests.CustomerOnboarding_PostCall">
+        <methods>
+          <include name="testSuccessPostCallForRandomDetailsEntry"/>
+          <include name="testSuccessPostCallForDuplicateCustomerDetails"/>
+          <include name="setUp"/>
+          <include name="testSuccessPostCallForOnlyOneCustomer"/>
+          <include name="successPostCall"/>
+        </methods>
+      </class> <!-- com.project.api.testscenarios.functionalvalidationtests.CustomerOnboarding_PostCall -->
+    </classes>
+  </test> <!-- POST_TEST(failed) -->
+  <test name="Regression1(failed)">
+    <classes>
+      <class name="com.project.api.testscenarios.functionalvalidationtests.CustomerOnboarding_GetCall">
+        <methods>
+          <include name="successGetCall"/>
+          <include name="testGetCallWithInvalidUrl"/>
+          <include name="testGetCallForInvalidCustomerId"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.project.api.testscenarios.functionalvalidationtests.CustomerOnboarding_GetCall -->
+    </classes>
+  </test> <!-- Regression1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

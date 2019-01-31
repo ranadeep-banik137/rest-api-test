@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.497 sec <<< FAILURE! - in TestSuite
+testWithInvalidUrl(com.project.api.testscenarios.httpstatusvalidationtests.EmailValidation_GetCall)  Time elapsed: 3.139 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <404> doesn't match actual status code <200>.
+
+	at com.project.api.testscenarios.httpstatusvalidationtests.EmailValidation_GetCall.testWithInvalidUrl(EmailValidation_GetCall.java:78)
+
