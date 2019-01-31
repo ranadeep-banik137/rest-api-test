@@ -1,0 +1,180 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "customerDetails": {
+      "$id": "/properties/customerDetails",
+      "type": "array",
+      "items": {
+        "$id": "/properties/customerDetails/items",
+        "type": "object",
+        "properties": {
+          "personalDetails": {
+            "$id": "/properties/customerDetails/items/properties/personalDetails",
+            "type": "object",
+            "properties": {
+              "firstName": {
+                "$id": "/properties/customerDetails/items/properties/personalDetails/properties/firstName",
+                "type": "string",
+                "title": "The Firstname Schema ",
+                "default": "",
+                "examples": [
+                  "Pankaj"
+                ]
+              },
+              "lastName": {
+                "$id": "/properties/customerDetails/items/properties/personalDetails/properties/lastName",
+                "type": "string",
+                "title": "The Lastname Schema ",
+                "default": "",
+                "examples": [
+                  "Pandey"
+                ]
+              },
+              "middleName": {
+                "$id": "/properties/customerDetails/items/properties/personalDetails/properties/middleName",
+                "type": "string",
+                "title": "The Middlename Schema ",
+                "default": "",
+                "examples": [
+                  "Kumar"
+                ]
+              },
+              "email": {
+                "$id": "/properties/customerDetails/items/properties/personalDetails/properties/email",
+                "type": "string",
+                "title": "The Email Schema ",
+                "default": "",
+                "examples": [
+                  "pankaj@ABC.com"
+                ]
+              },
+              "dateOfBirth": {
+                "$id": "/properties/customerDetails/items/properties/personalDetails/properties/dateOfBirth",
+                "type": "string",
+                "title": "The Dateofbirth Schema ",
+                "default": "",
+                "examples": [
+                  "13-03-91"
+                ]
+              },
+              "gender": {
+                "$id": "/properties/customerDetails/items/properties/personalDetails/properties/gender",
+                "type": "string",
+                "title": "The Gender Schema ",
+                "default": "",
+                "examples": [
+                  "M"
+                ]
+              },
+              "contact": {
+                "$id": "/properties/customerDetails/items/properties/personalDetails/properties/contact",
+                "type": "number",
+                "title": "The Contact Schema ",
+                "default": "",
+                "examples": [
+                  "020-8029654321"
+                ]
+              }
+            }
+          },
+          "addressDetails": {
+            "$id": "/properties/customerDetails/items/properties/addressDetails",
+            "type": "object",
+            "properties": {
+              "addressLine1": {
+                "$id": "/properties/customerDetails/items/properties/addressDetails/properties/addressLine1",
+                "type": "string",
+                "title": "The Addressline1 Schema ",
+                "default": "",
+                "examples": [
+                  "Cramson Lane"
+                ]
+              },
+              "addressLine2": {
+                "$id": "/properties/customerDetails/items/properties/addressDetails/properties/addressLine2",
+                "type": "string",
+                "title": "The Addressline2 Schema ",
+                "default": "",
+                "examples": [
+                  "Story 01/2"
+                ]
+              },
+              "addressLine3": {
+                "$id": "/properties/customerDetails/items/properties/addressDetails/properties/addressLine3",
+                "type": "string",
+                "title": "The Addressline3 Schema ",
+                "default": "",
+                "examples": [
+                  ""
+                ]
+              },
+              "city": {
+                "$id": "/properties/customerDetails/items/properties/addressDetails/properties/city",
+                "type": "string",
+                "title": "The City Schema ",
+                "default": "",
+                "examples": [
+                  "Shamshing"
+                ]
+              },
+              "pinCode": {
+                "$id": "/properties/customerDetails/items/properties/addressDetails/properties/pinCode",
+                "type": "number",
+                "title": "The Pincode Schema ",
+                "default": "",
+                "examples": [
+                  "877412"
+                ]
+              }
+            }
+          },
+          "professionalDetails": {
+            "$id": "/properties/customerDetails/items/properties/professionalDetails",
+            "type": "object",
+            "properties": {
+              "company": {
+                "$id": "/properties/customerDetails/items/properties/professionalDetails/properties/company",
+                "type": "string",
+                "title": "The Company Schema ",
+                "default": "",
+                "examples": [
+                  "Scholarz"
+                ]
+              },
+              "designation": {
+                "$id": "/properties/customerDetails/items/properties/professionalDetails/properties/designation",
+                "type": "string",
+                "title": "The Designation Schema ",
+                "default": "",
+                "examples": [
+                  "SE"
+                ]
+              },
+              "companyId": {
+                "$id": "/properties/customerDetails/items/properties/professionalDetails/properties/companyId",
+                "type": "string",
+                "title": "The Companyid Schema ",
+                "default": "",
+                "examples": [
+                  "SCH-2958"
+                ]
+              },
+              "companyLocation": {
+                "$id": "/properties/customerDetails/items/properties/professionalDetails/properties/companyLocation",
+                "type": "string",
+                "title": "The Companylocation Schema ",
+                "default": "",
+                "examples": [
+                  "Siyaal"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

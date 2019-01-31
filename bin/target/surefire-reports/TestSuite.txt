@@ -1,0 +1,95 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 17, Failures: 13, Errors: 0, Skipped: 0, Time elapsed: 9.918 sec <<< FAILURE! - in TestSuite
+successGetCall(com.project.api.testscenarios.functionalvalidationtests.CustomerOnboarding_GetCall)  Time elapsed: 2.459 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.functionalvalidationtests.CustomerOnboarding_GetCall.successGetCall(CustomerOnboarding_GetCall.java:69)
+
+deleteCall_methodNotAllowed(com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall)  Time elapsed: 0.415 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <405> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall.deleteCall_methodNotAllowed(CustomerOnboarding_GetCall.java:91)
+
+getCallWithContentTypeAsAny(com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall)  Time elapsed: 0.41 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <406> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall.getCallWithContentTypeAsAny(CustomerOnboarding_GetCall.java:172)
+
+getCallWithContentTypeAsBinary(com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall)  Time elapsed: 0.42 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <406> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall.getCallWithContentTypeAsBinary(CustomerOnboarding_GetCall.java:194)
+
+getCallWithContentTypeAsHtml(com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall)  Time elapsed: 0.409 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <406> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall.getCallWithContentTypeAsHtml(CustomerOnboarding_GetCall.java:183)
+
+getCallWithContentTypeAsText(com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall)  Time elapsed: 0.409 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <406> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall.getCallWithContentTypeAsText(CustomerOnboarding_GetCall.java:205)
+
+getCallWithContentTypeAsXml(com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall)  Time elapsed: 0.399 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <406> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall.getCallWithContentTypeAsXml(CustomerOnboarding_GetCall.java:216)
+
+postCall_methodNotAllowed(com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall)  Time elapsed: 0.418 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <405> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall.postCall_methodNotAllowed(CustomerOnboarding_GetCall.java:81)
+
+putCall_methodNotAllowed(com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall)  Time elapsed: 0.401 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <405> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall.putCall_methodNotAllowed(CustomerOnboarding_GetCall.java:101)
+
+successGetCall(com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall)  Time elapsed: 0.4 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall.successGetCall(CustomerOnboarding_GetCall.java:70)
+
+testGetCallWithInvalidPathParamType(com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall)  Time elapsed: 0.396 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <403> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall.testGetCallWithInvalidPathParamType(CustomerOnboarding_GetCall.java:161)
+
+testGetCallWithInvalidSamlHeader(com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall)  Time elapsed: 0.386 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <403> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall.testGetCallWithInvalidSamlHeader(CustomerOnboarding_GetCall.java:145)
+
+successGetCall(com.project.api.testscenarios.responsevalidationtests.CustomerOnboarding_GetCall)  Time elapsed: 0.395 sec  <<< FAILURE!
+java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.responsevalidationtests.CustomerOnboarding_GetCall.successGetCall(CustomerOnboarding_GetCall.java:68)
+

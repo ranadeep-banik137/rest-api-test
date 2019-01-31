@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="9.918" tests="17" errors="0" skipped="0" failures="13">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jre7\bin"/>
+    <property name="java.vm.version" value="21.0-b17"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="test" value="CustomerOnboarding_GetCall"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Harry\Desktop\Rana\testFrame"/>
+    <property name="java.runtime.version" value="1.7.0-b147"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jre7\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\Harry\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows NT (unknown)"/>
+    <property name="classworlds.conf" value="C:\Users\Harry\Desktop\Rana\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4871439155955158245.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jre7\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files (x86)/Java/jre7/bin/client;C:/Program Files (x86)/Java/jre7/bin;C:/Program Files (x86)/Java/jre7/lib/i386;C:\Program Files (x86)\Intel\iCLS Client\;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Java\jdk1.7.0\bin;C:\Users\Harry\AppData\Local\Microsoft\WindowsApps;;F:\Automation\Eclipse and selenium\data0\Eclipse-Kepler-SR1-win32;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.2"/>
+    <property name="user.home" value="C:\Users\Harry"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Harry"/>
+    <property name="java.class.path" value="/F:/Automation/Eclipse and selenium/data0/Eclipse-Kepler-SR1-win32/configuration/org.eclipse.osgi/bundles/1040/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jre7"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean test -Dtest=CustomerOnboarding_GetCall"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.7.0"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jre7\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jre7\lib\resources.jar;C:\Program Files (x86)\Java\jre7\lib\rt.jar;C:\Program Files (x86)\Java\jre7\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jre7\lib\jsse.jar;C:\Program Files (x86)\Java\jre7\lib\jce.jar;C:\Program Files (x86)\Java\jre7\lib\charsets.jar;C:\Program Files (x86)\Java\jre7\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Harry\Desktop\Rana\testFrame\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="maven.bootclasspath" value="/F:/Automation/Eclipse and selenium/data0/Eclipse-Kepler-SR1-win32/configuration/org.eclipse.osgi/bundles/1040/1/.cp/jars/plexus-classworlds-2.4.jar"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase name="successGetCall" classname="com.project.api.testscenarios.functionalvalidationtests.CustomerOnboarding_GetCall" time="2.459">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; doesn&apos;t match actual status code &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.functionalvalidationtests.CustomerOnboarding_GetCall.successGetCall(CustomerOnboarding_GetCall.java:69)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 404 Not Found
+Server: nginx
+Date: Fri, 17 Aug 2018 23:59:48 GMT
+Content-Length: 21
+Set-Cookie: JSESSIONID=1jqwr5vbijqvk4o0pjdo533y7;Path=/
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-e-id: 10.32.217.194
+
+{"message":"Error!"}
+
+]]></system-out>
+    <system-err><![CDATA[Aug 18, 2018 5:29:46 AM com.project.app.api_test_v1.configurations.EntityProvider <clinit>
+INFO: Run entity environment is : getcustomer
+Aug 18, 2018 5:29:46 AM com.project.app.api_test_v1.configurations.RestSpecifications <clinit>
+INFO: EndPoint Base URI: https://www.flipkart.com
+Aug 18, 2018 5:29:46 AM com.project.app.api_test_v1.utilities.RestCalls modifyPathParam
+INFO: Path params updated : {id=HGSGBCHSD251457}
+Aug 18, 2018 5:29:46 AM com.project.api.testscenarios.functionalvalidationtests.CustomerOnboarding_GetCall setUp
+INFO: Method initiating successGetCall
+Aug 18, 2018 5:29:47 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Uri : https://www.flipkart.com
+Aug 18, 2018 5:29:47 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Path : /api/customer/{id}
+Aug 18, 2018 5:29:47 AM com.project.app.api_test_v1.utilities.RestCalls setInitialRestCallConfigurations
+INFO: Rest Assured initial configurations initiated
+Aug 18, 2018 5:29:48 AM io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse
+WARNING: Could not parse content-type: Response does not have a content-type header
+]]></system-err>
+  </testcase>
+  <testcase name="testGetCallForInvalidCustomerId" classname="com.project.api.testscenarios.functionalvalidationtests.CustomerOnboarding_GetCall" time="0.397"/>
+  <testcase name="testGetCallWithInvalidUrl" classname="com.project.api.testscenarios.functionalvalidationtests.CustomerOnboarding_GetCall" time="0.421"/>
+  <testcase name="deleteCall_methodNotAllowed" classname="com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall" time="0.415">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;405&gt; doesn&apos;t match actual status code &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <405> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall.deleteCall_methodNotAllowed(CustomerOnboarding_GetCall.java:91)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 404 Not Found
+Server: nginx
+Date: Fri, 17 Aug 2018 23:59:49 GMT
+Content-Length: 21
+Set-Cookie: JSESSIONID=1b7otmnq5eo5jzcihm6pg4wqm;Path=/
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-e-id: 10.32.229.161
+
+{"message":"Error!"}
+
+]]></system-out>
+    <system-err><![CDATA[Aug 18, 2018 5:29:49 AM com.project.api.testscenarios.functionalvalidationtests.CustomerOnboarding_GetCall conclude
+INFO: Execution successful. Method testGetCallWithInvalidUrl PASSED
+Aug 18, 2018 5:29:49 AM com.project.app.api_test_v1.utilities.RestCalls modifyPathParam
+INFO: Path params updated : {id=HGSGBCHSD251457}
+Aug 18, 2018 5:29:49 AM com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall setUp
+INFO: Method initiating deleteCall_methodNotAllowed
+Aug 18, 2018 5:29:49 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Uri : https://www.flipkart.com
+Aug 18, 2018 5:29:49 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Path : /api/customer/{id}
+Aug 18, 2018 5:29:49 AM com.project.app.api_test_v1.utilities.RestCalls setInitialRestCallConfigurations
+INFO: Rest Assured initial configurations initiated
+Aug 18, 2018 5:29:50 AM io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse
+WARNING: Could not parse content-type: Response does not have a content-type header
+]]></system-err>
+  </testcase>
+  <testcase name="getCallWithContentTypeAsAny" classname="com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall" time="0.41">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;406&gt; doesn&apos;t match actual status code &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <406> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall.getCallWithContentTypeAsAny(CustomerOnboarding_GetCall.java:172)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 404 Not Found
+Server: nginx
+Date: Fri, 17 Aug 2018 23:59:50 GMT
+Content-Length: 21
+Set-Cookie: JSESSIONID=2gbez8r2n5rq13o4gwn8aedt0;Path=/
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-e-id: 10.32.229.161
+
+{"message":"Error!"}
+
+]]></system-out>
+    <system-err><![CDATA[Aug 18, 2018 5:29:50 AM com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall conclude
+INFO: Method deleteCall_methodNotAllowed FAILED
+Aug 18, 2018 5:29:50 AM com.project.app.api_test_v1.utilities.RestCalls modifyPathParam
+INFO: Path params updated : {id=HGSGBCHSD251457}
+Aug 18, 2018 5:29:50 AM com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall setUp
+INFO: Method initiating getCallWithContentTypeAsAny
+Aug 18, 2018 5:29:50 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Uri : https://www.flipkart.com
+Aug 18, 2018 5:29:50 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Path : /api/customer/{id}
+Aug 18, 2018 5:29:50 AM com.project.app.api_test_v1.utilities.RestCalls setInitialRestCallConfigurations
+INFO: Rest Assured initial configurations initiated
+Aug 18, 2018 5:29:50 AM io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse
+WARNING: Could not parse content-type: Response does not have a content-type header
+]]></system-err>
+  </testcase>
+  <testcase name="getCallWithContentTypeAsBinary" classname="com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall" time="0.42">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;406&gt; doesn&apos;t match actual status code &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <406> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall.getCallWithContentTypeAsBinary(CustomerOnboarding_GetCall.java:194)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 404 Not Found
+Server: nginx
+Date: Fri, 17 Aug 2018 23:59:50 GMT
+Content-Length: 21
+Set-Cookie: JSESSIONID=zg3vwwso8p9p3n24o7ptumrs;Path=/
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-e-id: 10.32.229.161
+
+{"message":"Error!"}
+
+]]></system-out>
+    <system-err><![CDATA[Aug 18, 2018 5:29:50 AM com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall conclude
+INFO: Method getCallWithContentTypeAsAny FAILED
+Aug 18, 2018 5:29:50 AM com.project.app.api_test_v1.utilities.RestCalls modifyPathParam
+INFO: Path params updated : {id=HGSGBCHSD251457}
+Aug 18, 2018 5:29:50 AM com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall setUp
+INFO: Method initiating getCallWithContentTypeAsBinary
+Aug 18, 2018 5:29:50 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Uri : https://www.flipkart.com
+Aug 18, 2018 5:29:50 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Path : /api/customer/{id}
+Aug 18, 2018 5:29:50 AM com.project.app.api_test_v1.utilities.RestCalls setInitialRestCallConfigurations
+INFO: Rest Assured initial configurations initiated
+Aug 18, 2018 5:29:51 AM io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse
+WARNING: Could not parse content-type: Response does not have a content-type header
+]]></system-err>
+  </testcase>
+  <testcase name="getCallWithContentTypeAsHtml" classname="com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall" time="0.409">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;406&gt; doesn&apos;t match actual status code &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <406> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall.getCallWithContentTypeAsHtml(CustomerOnboarding_GetCall.java:183)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 404 Not Found
+Server: nginx
+Date: Fri, 17 Aug 2018 23:59:50 GMT
+Content-Length: 21
+Set-Cookie: JSESSIONID=1i78tlmhmipje1l791qtw6x5pb;Path=/
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-e-id: 10.32.217.194
+
+{"message":"Error!"}
+
+]]></system-out>
+    <system-err><![CDATA[Aug 18, 2018 5:29:51 AM com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall conclude
+INFO: Method getCallWithContentTypeAsBinary FAILED
+Aug 18, 2018 5:29:51 AM com.project.app.api_test_v1.utilities.RestCalls modifyPathParam
+INFO: Path params updated : {id=HGSGBCHSD251457}
+Aug 18, 2018 5:29:51 AM com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall setUp
+INFO: Method initiating getCallWithContentTypeAsHtml
+Aug 18, 2018 5:29:51 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Uri : https://www.flipkart.com
+Aug 18, 2018 5:29:51 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Path : /api/customer/{id}
+Aug 18, 2018 5:29:51 AM com.project.app.api_test_v1.utilities.RestCalls setInitialRestCallConfigurations
+INFO: Rest Assured initial configurations initiated
+Aug 18, 2018 5:29:51 AM io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse
+WARNING: Could not parse content-type: Response does not have a content-type header
+]]></system-err>
+  </testcase>
+  <testcase name="getCallWithContentTypeAsText" classname="com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall" time="0.409">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;406&gt; doesn&apos;t match actual status code &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <406> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall.getCallWithContentTypeAsText(CustomerOnboarding_GetCall.java:205)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 404 Not Found
+Server: nginx
+Date: Fri, 17 Aug 2018 23:59:51 GMT
+Content-Length: 21
+Set-Cookie: JSESSIONID=11a8iinujvzgg1hhrmj2pcp4k6;Path=/
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-e-id: 10.32.229.161
+
+{"message":"Error!"}
+
+]]></system-out>
+    <system-err><![CDATA[Aug 18, 2018 5:29:51 AM com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall conclude
+INFO: Method getCallWithContentTypeAsHtml FAILED
+Aug 18, 2018 5:29:51 AM com.project.app.api_test_v1.utilities.RestCalls modifyPathParam
+INFO: Path params updated : {id=HGSGBCHSD251457}
+Aug 18, 2018 5:29:51 AM com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall setUp
+INFO: Method initiating getCallWithContentTypeAsText
+Aug 18, 2018 5:29:51 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Uri : https://www.flipkart.com
+Aug 18, 2018 5:29:51 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Path : /api/customer/{id}
+Aug 18, 2018 5:29:51 AM com.project.app.api_test_v1.utilities.RestCalls setInitialRestCallConfigurations
+INFO: Rest Assured initial configurations initiated
+Aug 18, 2018 5:29:51 AM io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse
+WARNING: Could not parse content-type: Response does not have a content-type header
+]]></system-err>
+  </testcase>
+  <testcase name="getCallWithContentTypeAsXml" classname="com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall" time="0.399">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;406&gt; doesn&apos;t match actual status code &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <406> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall.getCallWithContentTypeAsXml(CustomerOnboarding_GetCall.java:216)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 404 Not Found
+Server: nginx
+Date: Fri, 17 Aug 2018 23:59:51 GMT
+Content-Length: 21
+Set-Cookie: JSESSIONID=1dkkphl3f8ihv1jyyglt90ez5a;Path=/
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-e-id: 10.32.229.161
+
+{"message":"Error!"}
+
+]]></system-out>
+    <system-err><![CDATA[Aug 18, 2018 5:29:51 AM com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall conclude
+INFO: Method getCallWithContentTypeAsText FAILED
+Aug 18, 2018 5:29:51 AM com.project.app.api_test_v1.utilities.RestCalls modifyPathParam
+INFO: Path params updated : {id=HGSGBCHSD251457}
+Aug 18, 2018 5:29:51 AM com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall setUp
+INFO: Method initiating getCallWithContentTypeAsXml
+Aug 18, 2018 5:29:51 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Uri : https://www.flipkart.com
+Aug 18, 2018 5:29:51 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Path : /api/customer/{id}
+Aug 18, 2018 5:29:51 AM com.project.app.api_test_v1.utilities.RestCalls setInitialRestCallConfigurations
+INFO: Rest Assured initial configurations initiated
+Aug 18, 2018 5:29:52 AM io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse
+WARNING: Could not parse content-type: Response does not have a content-type header
+]]></system-err>
+  </testcase>
+  <testcase name="postCall_methodNotAllowed" classname="com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall" time="0.418">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;405&gt; doesn&apos;t match actual status code &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <405> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall.postCall_methodNotAllowed(CustomerOnboarding_GetCall.java:81)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 404 Not Found
+Server: nginx
+Date: Fri, 17 Aug 2018 23:59:52 GMT
+Content-Length: 21
+Set-Cookie: JSESSIONID=11n1tgjmuj9sr1y2imfb4m4bwq;Path=/
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-e-id: 10.32.217.194
+
+{"message":"Error!"}
+
+]]></system-out>
+    <system-err><![CDATA[Aug 18, 2018 5:29:52 AM com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall conclude
+INFO: Method getCallWithContentTypeAsXml FAILED
+Aug 18, 2018 5:29:52 AM com.project.app.api_test_v1.utilities.RestCalls modifyPathParam
+INFO: Path params updated : {id=HGSGBCHSD251457}
+Aug 18, 2018 5:29:52 AM com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall setUp
+INFO: Method initiating postCall_methodNotAllowed
+Aug 18, 2018 5:29:52 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Uri : https://www.flipkart.com
+Aug 18, 2018 5:29:52 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Path : /api/customer/{id}
+Aug 18, 2018 5:29:52 AM com.project.app.api_test_v1.utilities.RestCalls setInitialRestCallConfigurations
+INFO: Rest Assured initial configurations initiated
+Aug 18, 2018 5:29:52 AM io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse
+WARNING: Could not parse content-type: Response does not have a content-type header
+]]></system-err>
+  </testcase>
+  <testcase name="putCall_methodNotAllowed" classname="com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall" time="0.401">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;405&gt; doesn&apos;t match actual status code &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <405> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall.putCall_methodNotAllowed(CustomerOnboarding_GetCall.java:101)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 404 Not Found
+Server: nginx
+Date: Fri, 17 Aug 2018 23:59:52 GMT
+Content-Length: 21
+Set-Cookie: JSESSIONID=1sm9eij3rdm4ll0z8ljmwlvg1;Path=/
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-e-id: 10.32.157.205
+
+{"message":"Error!"}
+
+]]></system-out>
+    <system-err><![CDATA[Aug 18, 2018 5:29:52 AM com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall conclude
+INFO: Method postCall_methodNotAllowed FAILED
+Aug 18, 2018 5:29:52 AM com.project.app.api_test_v1.utilities.RestCalls modifyPathParam
+INFO: Path params updated : {id=HGSGBCHSD251457}
+Aug 18, 2018 5:29:52 AM com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall setUp
+INFO: Method initiating putCall_methodNotAllowed
+Aug 18, 2018 5:29:52 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Uri : https://www.flipkart.com
+Aug 18, 2018 5:29:52 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Path : /api/customer/{id}
+Aug 18, 2018 5:29:52 AM com.project.app.api_test_v1.utilities.RestCalls setInitialRestCallConfigurations
+INFO: Rest Assured initial configurations initiated
+Aug 18, 2018 5:29:53 AM io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse
+WARNING: Could not parse content-type: Response does not have a content-type header
+]]></system-err>
+  </testcase>
+  <testcase name="successGetCall" classname="com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall" time="0.4">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; doesn&apos;t match actual status code &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall.successGetCall(CustomerOnboarding_GetCall.java:70)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 404 Not Found
+Server: nginx
+Date: Fri, 17 Aug 2018 23:59:53 GMT
+Content-Length: 21
+Set-Cookie: JSESSIONID=zqn8fspxp2e2i0z4y720r62j;Path=/
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-e-id: 10.32.221.191
+
+{"message":"Error!"}
+
+]]></system-out>
+    <system-err><![CDATA[Aug 18, 2018 5:29:53 AM com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall conclude
+INFO: Method putCall_methodNotAllowed FAILED
+Aug 18, 2018 5:29:53 AM com.project.app.api_test_v1.utilities.RestCalls modifyPathParam
+INFO: Path params updated : {id=HGSGBCHSD251457}
+Aug 18, 2018 5:29:53 AM com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall setUp
+INFO: Method initiating successGetCall
+Aug 18, 2018 5:29:53 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Uri : https://www.flipkart.com
+Aug 18, 2018 5:29:53 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Path : /api/customer/{id}
+Aug 18, 2018 5:29:53 AM com.project.app.api_test_v1.utilities.RestCalls setInitialRestCallConfigurations
+INFO: Rest Assured initial configurations initiated
+Aug 18, 2018 5:29:53 AM io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse
+WARNING: Could not parse content-type: Response does not have a content-type header
+]]></system-err>
+  </testcase>
+  <testcase name="testGetCallForInvalidCustomerId" classname="com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall" time="0.398"/>
+  <testcase name="testGetCallWithInvalidPathParamType" classname="com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall" time="0.396">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;403&gt; doesn&apos;t match actual status code &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <403> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall.testGetCallWithInvalidPathParamType(CustomerOnboarding_GetCall.java:161)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 404 Not Found
+Server: nginx
+Date: Fri, 17 Aug 2018 23:59:53 GMT
+Content-Length: 21
+Set-Cookie: JSESSIONID=p5yo6h72rrfytxldlw94qelq;Path=/
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-e-id: 10.32.221.191
+
+{"message":"Error!"}
+
+]]></system-out>
+    <system-err><![CDATA[Aug 18, 2018 5:29:53 AM com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall conclude
+INFO: Execution successful. Method testGetCallForInvalidCustomerId PASSED
+Aug 18, 2018 5:29:53 AM com.project.app.api_test_v1.utilities.RestCalls modifyPathParam
+INFO: Path params updated : {id=HGSGBCHSD251457}
+Aug 18, 2018 5:29:53 AM com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall setUp
+INFO: Method initiating testGetCallWithInvalidPathParamType
+Aug 18, 2018 5:29:53 AM com.project.app.api_test_v1.utilities.RestCalls modifyPathParam
+INFO: Path params updated : {id=6632706}
+Aug 18, 2018 5:29:53 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Uri : https://www.flipkart.com
+Aug 18, 2018 5:29:53 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Path : /api/customer/{id}
+Aug 18, 2018 5:29:53 AM com.project.app.api_test_v1.utilities.RestCalls setInitialRestCallConfigurations
+INFO: Rest Assured initial configurations initiated
+Aug 18, 2018 5:29:54 AM io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse
+WARNING: Could not parse content-type: Response does not have a content-type header
+]]></system-err>
+  </testcase>
+  <testcase name="testGetCallWithInvalidSamlHeader" classname="com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall" time="0.386">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;403&gt; doesn&apos;t match actual status code &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <403> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall.testGetCallWithInvalidSamlHeader(CustomerOnboarding_GetCall.java:145)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 404 Not Found
+Server: nginx
+Date: Fri, 17 Aug 2018 23:59:54 GMT
+Content-Length: 21
+Set-Cookie: JSESSIONID=lps52wajyr2rnckcqw9fp9ty;Path=/
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-e-id: 10.32.229.161
+
+{"message":"Error!"}
+
+]]></system-out>
+    <system-err><![CDATA[Aug 18, 2018 5:29:54 AM com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall conclude
+INFO: Method testGetCallWithInvalidPathParamType FAILED
+Aug 18, 2018 5:29:54 AM com.project.app.api_test_v1.utilities.RestCalls modifyPathParam
+INFO: Path params updated : {id=HGSGBCHSD251457}
+Aug 18, 2018 5:29:54 AM com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall setUp
+INFO: Method initiating testGetCallWithInvalidSamlHeader
+Aug 18, 2018 5:29:54 AM com.project.app.api_test_v1.utilities.RestCalls modifyHeader
+INFO: Headers updated : {X-Saml-Token=MbvJmSNLJhbJ84ZBL1t0, X-Ip-Id="129.220.23.23"}
+Aug 18, 2018 5:29:54 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Uri : https://www.flipkart.com
+Aug 18, 2018 5:29:54 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Path : /api/customer/{id}
+Aug 18, 2018 5:29:54 AM com.project.app.api_test_v1.utilities.RestCalls setInitialRestCallConfigurations
+INFO: Rest Assured initial configurations initiated
+Aug 18, 2018 5:29:54 AM io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse
+WARNING: Could not parse content-type: Response does not have a content-type header
+]]></system-err>
+  </testcase>
+  <testcase name="testGetCallWithInvalidUrl" classname="com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall" time="0.408"/>
+  <testcase name="successGetCall" classname="com.project.api.testscenarios.responsevalidationtests.CustomerOnboarding_GetCall" time="0.395">
+    <failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; doesn&apos;t match actual status code &lt;404&gt;.&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+1 expectation failed.
+Expected status code <200> doesn't match actual status code <404>.
+
+	at com.project.api.testscenarios.responsevalidationtests.CustomerOnboarding_GetCall.successGetCall(CustomerOnboarding_GetCall.java:68)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 404 Not Found
+Server: nginx
+Date: Fri, 17 Aug 2018 23:59:55 GMT
+Content-Length: 21
+Set-Cookie: JSESSIONID=1cltfshdfsga3129ltno4rdvwg;Path=/
+Expires: Thu, 01 Jan 1970 00:00:00 GMT
+x-e-id: 10.32.229.161
+
+{"message":"Error!"}
+
+]]></system-out>
+    <system-err><![CDATA[Aug 18, 2018 5:29:55 AM com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall conclude
+INFO: Execution successful. Method testGetCallWithInvalidUrl PASSED
+Aug 18, 2018 5:29:55 AM com.project.app.api_test_v1.utilities.RestCalls modifyPathParam
+INFO: Path params updated : {id=HGSGBCHSD251457}
+Aug 18, 2018 5:29:55 AM com.project.api.testscenarios.responsevalidationtests.CustomerOnboarding_GetCall setUp
+INFO: Method initiating successGetCall
+Aug 18, 2018 5:29:55 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Uri : https://www.flipkart.com
+Aug 18, 2018 5:29:55 AM com.project.app.api_test_v1.configurations.RestSpecifications initiateRestConfig
+INFO: Base Path : /api/customer/{id}
+Aug 18, 2018 5:29:55 AM com.project.app.api_test_v1.utilities.RestCalls setInitialRestCallConfigurations
+INFO: Rest Assured initial configurations initiated
+Aug 18, 2018 5:29:55 AM io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder parseResponse
+WARNING: Could not parse content-type: Response does not have a content-type header
+]]></system-err>
+  </testcase>
+</testsuite>

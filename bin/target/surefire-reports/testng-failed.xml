@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test thread-count="1" verbose="0" name="Surefire test(failed)">
+    <classes>
+      <class name="com.project.api.testscenarios.responsevalidationtests.CustomerOnboarding_GetCall">
+        <methods>
+          <include name="setUp"/>
+          <include name="conclude"/>
+          <include name="successGetCall"/>
+        </methods>
+      </class> <!-- com.project.api.testscenarios.responsevalidationtests.CustomerOnboarding_GetCall -->
+      <class name="com.project.api.testscenarios.functionalvalidationtests.CustomerOnboarding_GetCall">
+        <methods>
+          <include name="successGetCall"/>
+          <include name="conclude"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.project.api.testscenarios.functionalvalidationtests.CustomerOnboarding_GetCall -->
+      <class name="com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall">
+        <methods>
+          <include name="successGetCall"/>
+          <include name="getCallWithContentTypeAsAny"/>
+          <include name="getCallWithContentTypeAsXml"/>
+          <include name="testGetCallWithInvalidPathParamType"/>
+          <include name="setUp"/>
+          <include name="putCall_methodNotAllowed"/>
+          <include name="conclude"/>
+          <include name="testGetCallWithInvalidSamlHeader"/>
+          <include name="postCall_methodNotAllowed"/>
+          <include name="getCallWithContentTypeAsText"/>
+          <include name="deleteCall_methodNotAllowed"/>
+          <include name="getCallWithContentTypeAsHtml"/>
+          <include name="getCallWithContentTypeAsBinary"/>
+        </methods>
+      </class> <!-- com.project.api.testscenarios.httpstatusvalidationtests.CustomerOnboarding_GetCall -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
